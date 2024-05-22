@@ -14,10 +14,10 @@ This PHP script generates an image with the specified width, height, and colors.
 The script also takes care of some HTTP headers to manage caching and the file format of the generated image. Here are some examples of how you could use this script:
 
 - `placeholder.php?w=1000&h=550&color=667F99&textColor=FFFFFF`: This generates a 1000x550 pixel image with a background color of #667F99 and white text.
-[![Webily](https://raw.githubusercontent.com/WebilyBE/Dynamic-Placeholder-Image-Generator-Script-in-PHP/main/webily-1000x550--2024135403.png)](https://webily.io)
+[![Webily](https://placeholder.webily.io/1000x550/667F99/FFFFFF)](https://placeholder.webily.io/1000x550/667F99/FFFFFF)
 
 - `placeholder.php?w=1000&h=550&color=667F99`: This creates a 1000x550 pixel image with a background color of #5D9B9B. The text color is automatically determined based on the brightness of the background color.
-[![Webily](https://raw.githubusercontent.com/WebilyBE/Dynamic-Placeholder-Image-Generator-Script-in-PHP/main/webily-1000x550--2024140427.png)](https://webily.io)
+[![Webily](https://placeholder.webily.io/1000x550/5D9B9B)](https://placeholder.webily.io/1000x550/5D9B9B)
 
 - `placeholder.php?w=1000&h=550`: This produces a 1000x550 pixel image with default background and text colors.
-[![Webily](https://raw.githubusercontent.com/WebilyBE/Dynamic-Placeholder-Image-Generator-Script-in-PHP/main/webily-1000x550--2024135509.png)](https://webily.io)
+[![Webily](https://placeholder.webily.io/1000x550)](https://placeholder.webily.io/1000x550)
